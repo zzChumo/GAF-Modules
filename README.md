@@ -37,4 +37,7 @@ __注意：为了保证数据的绝对安全，你可能需要备份原工程。
 - Author
 - Name
 - Desp（Description）
-5. 拓展程序信息需要解析并使用`console.log()`在控制台中输出。
+- Version
+5. 拓展程序信息需要解析并使用`console.log()`在控制台中输出，具体方法见GameAuth模块。
+
+如需投稿模块请联系[gstchumo@gmail.com](mailto:gstchumo@gmail.com)。
