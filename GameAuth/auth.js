@@ -28,7 +28,11 @@ function fadeOut(element){
 }
 */
 
-var gafExtension='Author:zzChumo,Name:GAF-GameAuth,Version:1.00';
+var gafExtension={"Author":"zzChumo","Name":"GameAuth","Desp":"A module can refuse connections from China's mainland.","Version":"1.00"};
+var json=gafExtension;
+var obj=eval(json);
+console.log(obj.Name+' V'+obj.Version+' by '+obj.Author);
+console.log(obj.Desp);
 
 window.onload=function(){
     document.getElementById('loading').style.display='block';
